@@ -1,0 +1,48 @@
+Source: haptix-comm
+Standards-Version: 3.9.4
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: extra
+Build-Depends: cmake,
+               pkg-config,
+               debhelper (>= 7.0.50~),
+               python,
+               ruby-ronn,
+               libprotoc-dev,
+               libprotobuf-dev,
+               protobuf-compiler,
+               libignition-transport-dev,
+               libzmq3-dev (>= 3.0.0),
+               libczmq-dev (>= 2.0.0)
+Vcs-Browser: https://bitbucket.org/osrf/haptix-comm-release
+Vcs-Hg: https://bitbucket.org/osrf/haptix-comm-release
+Homepage: https://bitbucket.org/osrf/haptix-comm
+
+Package: libhaptix-comm0
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Haptix project communication library - Shared library
+
+Package: libhaptix-comm-dev
+Architecture: any
+Section: libdevel
+Depends: libhaptix-comm0 (= ${binary:Version}),
+         libignition-transport-dev,
+         libzmq3-dev (>= 3.0.0),
+         libczmq-dev (>= 2.0.0),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Haptix project communication library - Development files
+ 
+Package: libhaptix-comm0-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends:
+     libhaptix-comm0 (= ${binary:Version}),
+     ${misc:Depends}
+Multi-Arch: same
+Description: Haptix project communication library - Debugging symbols
