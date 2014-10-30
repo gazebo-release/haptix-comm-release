@@ -2,6 +2,12 @@ haptix-comm (0.1.1-1~precise) precise; urgency=medium
 
   * haptix-comm 0.1.1-1 release
 
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 29 Oct 2014 18:51:41 -0700
+
+haptix-comm (0.1.1-1~precise) precise; urgency=medium
+
+  * haptix-comm 0.1.1-1 release
+
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 29 Oct 2014 18:51:10 -0700
 
 haptix-comm (0.1.0-1~precise) precise; urgency=medium
