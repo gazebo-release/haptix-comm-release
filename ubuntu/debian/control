@@ -12,6 +12,7 @@ Build-Depends: cmake,
                libprotobuf-dev,
                protobuf-compiler,
                libignition-transport-dev,
+               libboost-dev,
                libzmq3-dev (>= 3.0.0),
                libczmq-dev (>= 2.0.0)
 Vcs-Browser: https://bitbucket.org/osrf/haptix-comm-release
@@ -31,6 +32,7 @@ Architecture: any
 Section: libdevel
 Depends: libhaptix-comm0 (= ${binary:Version}),
          libignition-transport-dev,
+         libboost-dev,
          libzmq3-dev (>= 3.0.0),
          libczmq-dev (>= 2.0.0),
          ${misc:Depends}
