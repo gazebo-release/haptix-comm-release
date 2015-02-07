@@ -36,8 +36,8 @@ Depends: libhaptix-comm0 (= ${binary:Version}),
          libboost-dev,
          libzmq3-dev (>= 3.0.0),
          libczmq-dev (>= 2.0.0),
-         liboctave-dev,
          ${misc:Depends}
+Suggests: liboctave-dev
 Multi-Arch: same
 Description: Haptix project communication library - Development files
  
