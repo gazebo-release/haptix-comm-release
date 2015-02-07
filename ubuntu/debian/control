@@ -14,7 +14,8 @@ Build-Depends: cmake,
                libignition-transport-dev,
                libboost-dev,
                libzmq3-dev (>= 3.0.0),
-               libczmq-dev (>= 2.0.0)
+               libczmq-dev (>= 2.0.0),
+               liboctave-dev,
 Vcs-Browser: https://bitbucket.org/osrf/haptix-comm-release
 Vcs-Hg: https://bitbucket.org/osrf/haptix-comm-release
 Homepage: https://bitbucket.org/osrf/haptix-comm
@@ -35,6 +36,7 @@ Depends: libhaptix-comm0 (= ${binary:Version}),
          libboost-dev,
          libzmq3-dev (>= 3.0.0),
          libczmq-dev (>= 2.0.0),
+         liboctave-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Haptix project communication library - Development files
