@@ -1,6 +1,6 @@
-haptix-comm (0.7.2~trusty) trusty; urgency=medium
+haptix-comm (0.7.2-1~trusty) trusty; urgency=medium
 
-  * haptix-comm 0.7.2 release
+  * haptix-comm 0.7.2-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 14 May 2015 20:33:06 +0200
 
