@@ -1,3 +1,9 @@
+haptix-comm (0.8.0-1~trusty) trusty; urgency=medium
+
+  * haptix-comm 0.8.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 03 Nov 2015 23:32:27 +0100
+
 haptix-comm (0.7.2-1~trusty) trusty; urgency=medium
 
   * haptix-comm 0.7.2-1 release
