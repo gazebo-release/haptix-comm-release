@@ -11,7 +11,7 @@ Build-Depends: cmake,
                libprotoc-dev,
                libprotobuf-dev,
                protobuf-compiler,
-               libignition-transport-dev (>= 0.9.0),
+               libignition-transport0-dev (>= 0.9.0),
                libzmq3-dev (>= 3.0.0),
                libczmq-dev (>= 2.0.0),
                liboctave-dev,
@@ -31,7 +31,7 @@ Package: libhaptix-comm-dev
 Architecture: any
 Section: libdevel
 Depends: libhaptix-comm0 (= ${binary:Version}),
-         libignition-transport-dev (>= 0.9.0),
+         libignition-transport0-dev (>= 0.9.0),
          libzmq3-dev (>= 3.0.0),
          libczmq-dev (>= 2.0.0),
          ${misc:Depends}
